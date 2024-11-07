@@ -1,0 +1,33 @@
+* {color:blue}
+
+body {
+    background-color: wheat;
+}
+
+h1 {
+    color: green;
+    font-size: 50px;
+    padding: 1px 22px ;
+    background-color: rgb(210, 0, 210);
+}
+
+.my_class{
+    color: red;
+    text-decoration: underline;
+    border: 2px solid blue;
+}
+h6{
+    padding-top: 40px;
+}
+
+#identif {height: 250px}
+
+.div-img {
+    background-image: url("../assets/1.webp");
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100px, center;
+
+}
