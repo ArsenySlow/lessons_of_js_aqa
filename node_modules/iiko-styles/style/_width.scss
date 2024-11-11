@@ -1,0 +1,10 @@
+@mixin font {
+  @for $i from 0 to 100 {
+    .w-#{$i}p {
+      width: #{$i} + '%' !important;
+    }
+  }
+}
+
+@include font;
+
